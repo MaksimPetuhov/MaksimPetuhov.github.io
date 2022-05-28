@@ -1,2 +1,2 @@
-# MaksimPetuhov.github.io
+Максим Петухов
 Первый сайт
