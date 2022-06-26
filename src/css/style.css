@@ -443,6 +443,7 @@ select:hover{
 
 .statistics{
     background: url(../img/фон_стат.png) center no-repeat;
+    background-attachment: fixed;
     height: 495px;
     width: 100%;
     text-align: center;
@@ -486,6 +487,7 @@ select:hover{
     background: url(../img/кубок.png) center top no-repeat;
 }
 
+/*
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -508,6 +510,7 @@ select:hover{
 .parallax__layer--back {
   transform: translateZ(-1px) scale(1.1);
 }
+*/
 
 
 .responses_block{
@@ -611,6 +614,24 @@ textarea {
     color: #fefefe;
 }
 
+.cont_btn:hover{
+    background: #fefefe;
+    color: #0e1929;
+    transition-duration: 0.6s;
+}
+
+.cont_btn:active{
+/*
+    transform:translate(10px, 10px);
+    transform:scale(0.8);
+*/
+    border-color: #ff8e00;
+    color: #ff8e00;
+    background: none;
+    transform:matrix(1.2, 0, 0, 1.2, 0, 20);
+    transition-duration: 0.8s;
+}
+
 .position{
     background: url(../img/карта.jpg) center/cover no-repeat;
     width: 100%;
@@ -680,7 +701,7 @@ textarea {
   }
   
   50% {
-    transform: scale(2.0);
+    transform: scale(1.0);
   }
 }
 
